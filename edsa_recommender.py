@@ -146,7 +146,7 @@ def main():
 
         st.markdown(html_temp,unsafe_allow_html=True)
 
-        st.write("### Training data for the model and visualisations to obtain insights") 
+        st.write("### Training dataset for the model and visualisations to obtain insights") 
         st.write('')
 
         @st.cache(persist=True)
